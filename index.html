@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Music Organizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>My Music</h2>
+    <ul> 
+  <li id="homeBtn">Home</li>
+  <li id="searchBtn">Search</li>
+  <li id="libraryBtn">Library</li>
+</ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Header -->
+    <header>
+      <input type="text" id="searchBar" placeholder="Search songs or artists...">
+    </header>
+
+    <!-- Playlist Section -->
+    <section class="playlist">
+      <h2>Popular Songs</h2>
+      <div class="song-row" id="musicLibrary">
+
+        <!-- Song Cards -->
+
+        <div class="card">
+          <div class="cover-wrapper">
+            <img src="pics/tumhi.webp" height="250px" alt="Tum Hi Ho" class="cover">
+            <button class="play-btn">▶</button>
+            <audio src="songs/tumhiho.mp3" class="audio"></audio>
+          </div>
+          <div class="info">
+            <span class="song-title">Tum Hi Ho</span>
+            <span class="song-artist">Arijit Singh</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="cover-wrapper">
+            <img src="pics/lamya.jpg" height="250px" alt="Raataan Lambiyan" class="cover">
+            <button class="play-btn">▶</button>
+            <audio src="songs/raataan.mp3" class="audio"></audio>
+            
+          </div>
+          <div class="info">
+            <span class="song-title">Raataan Lambiyan</span>
+            <span class="song-artist">Jubin Nautiyal</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="cover-wrapper">
+            <img src="pics/shry.jpg" alt="Sun Raha Hai"  height="250px"   class="cover">
+            <button class="play-btn">▶</button>
+             <audio src="songs/sunraha.mp3" class="audio"></audio>
+          </div>
+          <div class="info">
+            <span class="song-title">Sun Raha Hai</span>
+            <span class="song-artist">Shreya Ghoshal</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="cover-wrapper">
+            <img src="pics/chhana.jpg" height="250px" alt="Channa Mereya" class="cover">
+            <button class="play-btn">▶</button>
+             <audio src="songs/Channa.mp3" class="audio"></audio>
+          </div>
+          <div class="info">
+            <span class="song-title">Channa Mereya</span>
+            <span class="song-artist">Arijit Singh</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="cover-wrapper">
+            <img src="pics/dilbar.jpg" height="251px" alt="Dilbar" class="cover">
+            <button class="play-btn">▶</button>
+             <audio src="songs/Dilbar.mp3" class="audio"></audio>
+          </div>
+          <div class="info">
+            <span class="song-title">Dilbar</span>
+            <span class="song-artist">Neha Kakkar</span>
+          </div>
+        </div>
+
+        <!-- 10 New Songs -->
+
+        <div class="card">
+          <div class="cover-wrapper">
+            <img src="pics/shayad.jpg" height="251px" alt="Shayad" class="cover">
+            <button class="play-btn">▶</button>
+            <audio src="songs/Shayad.mp3" class="audio"></audio>
+          </div>
+          <div class="info">
+            <span class="song-title">Shayad</span>
+            <span class="song-artist">Arijit Singh</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="cover-wrapper">
+            <img src="pics/lutgye.jpg" height="251px" alt="Lut Gaye" class="cover">
+            <button class="play-btn">▶</button>
+            <audio src="songs/Lutgye.mp3" class="audio"></audio>
+          </div>
+          <div class="info">
+            <span class="song-title">Lut Gaye</span>
+            <span class="song-artist">Jubin Nautiyal</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="cover-wrapper">
+            <img src="pics/deewani.jpg" height="251px" alt="Deewani Mastani" class="cover">
+            <button class="play-btn">▶</button>
+            <audio src="songs/deewani.mp3" class="audio"></audio>
+          </div>
+          <div class="info">
+            <span class="song-title">Deewani Mastani</span>
+            <span class="song-artist">Shreya Ghoshal</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="cover-wrapper">
+            <img src="pics/aankh.jpg" height="251px" alt="Aankh Marey" class="cover">
+            <button class="play-btn">▶</button>
+            <audio src="songs/aankh.mp3" class="audio"></audio>
+          </div>
+          <div class="info">
+            <span class="song-title">Aankh Marey</span>
+            <span class="song-artist">Neha Kakkar</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="cover-wrapper">
+            <img src="pics/yaar.jpg" height="251px" alt="Tera Yaar Hoon Main" class="cover">
+            <button class="play-btn">▶</button>
+            <audio src="songs/Terayaar.mp3" class="audio"></audio>
+          </div>
+          <div class="info">
+            <span class="song-title">Tera Yaar Hoon Main</span>
+            <span class="song-artist">Arijit Singh</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="cover-wrapper">
+            <img src="pics/pachtaoge.jpg" height="251px" alt="Pachtaoge" class="cover">
+            <button class="play-btn">▶</button>
+            <audio src="songs/Pachtaoge.mp3" class="audio"></audio>
+          </div>
+          <div class="info">
+            <span class="song-title">Pachtaoge</span>
+            <span class="song-artist">Arijit Singh</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="cover-wrapper">
+            <img src="pics/vaaste.jpg" height="251px" alt="Vaaste" class="cover">
+            <button class="play-btn">▶</button>
+            <audio src="songs/Vaaste.mp3" class="audio"></audio>
+          </div>
+          <div class="info">
+            <span class="song-title">Vaaste</span>
+            <span class="song-artist">Dhvani Bhanushali</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="cover-wrapper">
+            <img src="pics/hawaye.jpg" height="251px" alt="Hawayein" class="cover">
+            <button class="play-btn">▶</button>
+            <audio src="songs/Hawayen.mp3" class="audio"></audio>
+          </div>
+          <div class="info">
+            <span class="song-title">Hawayein</span>
+            <span class="song-artist">Arijit Singh</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="cover-wrapper">
+            <img src="pics/bekhayali.jpg" height="251px" alt="Bekhayali" class="cover">
+            <button class="play-btn">▶</button>
+            <audio src="songs/Bekhayali.mp3" class="audio"></audio>
+          </div>
+          <div class="info">
+            <span class="song-title">Bekhayali</span>
+            <span class="song-artist">Sachet Tandon</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="cover-wrapper">
+            <img src="pics/teraban.jpg" height="251px" alt="Tera Ban Jaunga" class="cover">
+            <button class="play-btn">▶</button>
+            <audio src="songs/teraban.mp3" class="audio"></audio>
+          </div>
+          <div class="info">
+            <span class="song-title">Tera Ban Jaunga</span>
+            <span class="song-artist">Tulsi kumar</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Mini Player -->
+  <footer class="player">
+    <div class="player-info">
+      <span class="playing-song">Select a song to play</span>
+    </div>
+    <button class="player-play">▶</button>
+  </footer>
+
+  <script src="script.js"></script>
+
+
+</body>
+</html>
